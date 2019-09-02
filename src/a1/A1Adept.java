@@ -21,6 +21,7 @@ public class A1Adept {
 		if (totalNumber == 1) {
 			  // block of code to be executed if the condition is true
 			String number2 = scan.nextLine();
+			System.out.println(number2);
 			if (number2 != " ") {
 				System.out.println("Biggest: Ketan Mayer-Patel (1.00)");
 				System.out.println("Smallest: Ketan Mayer-Patel (1.00)");
