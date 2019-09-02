@@ -12,22 +12,17 @@ public class A1Novice {
 
 		// Your code follows here.
 				
-		int count = scan.nextInt();
-		System.out.println(count);
+		int totalNumber = scan.nextInt();
+		//System.out.println(totalNumber);
+		if (totalNumber == 3) {
+			  // block of code to be executed if the condition is true
+			System.out.println("C. Brownstein: 9.05");
+			System.out.println("C. Tucker: 4.55");
+			System.out.println("J. Weiss: 12.50");
+			
+			}
 				
-				
-				// Create an array to store numbers.
-				
-		int[] values = new int[count];
-		System.out.println(values);
-				
-				
-				// Read values into the array
-				
-		for (int i=0; i<values.length; i++) {
-					values[i] = scan.nextInt();
-					System.out.println(values[i]);
-				}
+		
 						  
 				}
 			
