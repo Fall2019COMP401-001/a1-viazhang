@@ -19,7 +19,7 @@ public class A1Novice {
 			  String fName = scan.nextLine();
 			  String lName = scan.nextLine();
 			  int itemNo = scan.nextInt();
-			  double totalmoney = 0;
+			  double totalmoney = 0.0;
 			  for (int j = 0; j < itemNo; i++) {
 				  System.out.println(i);
 				  int numberBought = scan.nextInt();
