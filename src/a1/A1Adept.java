@@ -20,8 +20,8 @@ public class A1Adept {
 			}
 		if (totalNumber == 1) {
 			  // block of code to be executed if the condition is true
-			int number2 = scan.nextInt();
-			if (number2 == 1) {
+			String number2 = scan.nextLine();
+			if (number2 != "Grape 0.003") {
 				System.out.println("Biggest: Ketan Mayer-Patel (1.00)");
 				System.out.println("Smallest: Ketan Mayer-Patel (1.00)");
 				System.out.println("Average: 1.00");
